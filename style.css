@@ -619,6 +619,7 @@ a:active {
 
 
 .single .image-header header {
+	background-size: cover;
 	text-align: center;
 	padding-bottom: 30px;
 	margin-top: -10px;
