@@ -143,7 +143,7 @@ font-size: 4rem;
 }
 
 h3 {
-font-size: 3.5rem;    
+font-size: 3.0rem;
 }
 
 h4 {
@@ -618,6 +618,21 @@ a:active {
 }
 
 
+.single .image-header header {
+	text-align: center;
+	padding-bottom: 30px;
+	margin-top: -10px;
+}
+.single .image-header .entry-meta {
+	padding-bottom: 350px;
+}
+.single .header-caption {
+	text-align: center;
+	color: #bbb;
+	font-style: italic;
+	font-size: .8em;
+}
+
 /* =Asides
 ----------------------------------------------- */
 
@@ -880,7 +895,7 @@ text-decoration: none;
     }
 
     h3 {
-        font-size: 3.3rem;
+        font-size: 3.0rem;
     }
 
     h4 {

@@ -56,5 +56,5 @@
 		    </div>
         </div>
 	</header><!-- #masthead -->
-
-	<div id="content" class="site-content container">
+	<?php $post_header_image = get_field('header_image'); ?>
+	<div id="content" class="site-content <?php if(empty($post_header_image)) { echo 'container'; } else { echo 'image-header';} ?>">
