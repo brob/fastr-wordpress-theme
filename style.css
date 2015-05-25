@@ -194,6 +194,9 @@ font-size: 2rem;
 	background-color: #235980;
 	color: #fff;
 }
+.single #masthead {
+	padding-bottom: 1rem;
+}
 #masthead a {
 	color: #fff;
 }
