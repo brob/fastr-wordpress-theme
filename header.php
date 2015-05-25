@@ -42,10 +42,14 @@
 	        $header_image = esc_url_raw( $url );
 			if ( ! empty( $header_image ) ) :
 		    ?>
-			    <a class="site-logo"  href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-				    <img src="<?php echo $header_image; ?>" alt="" class="header-image" />
+				<?php if( !(is_home() )) : ?>
+
+				<a class="site-logo"  href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+					<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>
 			    </a>
-		    <?php endif; ?>
+			<?php endif; ?>
+
+			<?php endif; ?>
 		    <div class="site-branding text-center">
                 
                  <?php if( is_home() ) : ?>
