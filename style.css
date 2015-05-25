@@ -36,7 +36,6 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
-	font-family: inherit;
 	font-size: 100%;
 	font-style: inherit;
 	font-weight: inherit;
@@ -44,8 +43,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	outline: 0;
 	padding: 0;
 	vertical-align: baseline;
-    
-    
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+
+
+
 }
 html {
 	font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
@@ -104,8 +105,8 @@ button,
 input,
 select,
 textarea {
-	color: #303538;
-	font-family: Georgia, serif;
+	color: #555;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	line-height: 1.6em;
 }
@@ -113,10 +114,18 @@ textarea {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
-    line-height: 1.4;
+    line-height: 1.0;
     margin-top: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+	margin-bottom: 1.5rem;
+}
+
+h2, h3, h4, h5, h6 {
+	font-weight: 300;
 }
 
 body {
@@ -130,8 +139,8 @@ body {
 }
 
 .site-header {
-    background: #303538;
-    color: #fff;
+    background: #fff;
+    color: #333;
 }
 
 h1 {
@@ -143,7 +152,7 @@ font-size: 4rem;
 }
 
 h3 {
-font-size: 3.0rem;
+font-size: 2.5rem;
 }
 
 h4 {
@@ -624,6 +633,7 @@ a:active {
 	padding-bottom: 30px;
 	margin-top: -10px;
 }
+
 .single .image-header .entry-meta {
 	padding-bottom: 350px;
 }
@@ -632,6 +642,20 @@ a:active {
 	color: #bbb;
 	font-style: italic;
 	font-size: .8em;
+}
+header.dark {
+	color: #333;
+}
+header.dark h3 {
+	color: #666;
+}
+
+header.light {
+	color: #fff;
+
+}
+header.light h3 {
+	color: #ccc;
 }
 
 /* =Asides
@@ -887,7 +911,7 @@ text-decoration: none;
     }
 
     h1 {
-        font-size: 4.8rem;
+        font-size: 5.0rem;
         text-indent: -2px;
     }
 

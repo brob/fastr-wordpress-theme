@@ -10,13 +10,12 @@ if(get_field('header_image'))
 ?>
 <style>
 .image-header header {
-	color: <?php echo get_field('font_color'); ?>;
 	background: url(<?php echo get_field('header_image'); ?>) center bottom;
 }
 </style>
 <?php } ?>
 
-<header class="entry-header">
+<header class="entry-header <?php echo get_field('font_color'); ?>">
 	<div class="container">
 		<div class="entry-meta">
 			<?php fastr_posted_on(); ?>
