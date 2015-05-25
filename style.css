@@ -196,6 +196,7 @@ font-size: 2rem;
 }
 .single #masthead {
 	padding-bottom: 1rem;
+	margin-bottom: 0;
 }
 #masthead a {
 	color: #fff;
