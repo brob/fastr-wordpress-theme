@@ -19,6 +19,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+<div class="blog_tag"><a href="/" title="Back to Portfolio">View Bryan's Portfolio</a></div>
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
 	<header id="masthead" class="site-header text-center" role="banner">
@@ -47,6 +48,7 @@
 				<a class="site-logo"  href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 					<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>
 			    </a>
+				<a class="portfolio-link" href="/" title="Back to Bryan's Portfolio">Portfolio</a>
 			<?php endif; ?>
 
 			<?php endif; ?>
