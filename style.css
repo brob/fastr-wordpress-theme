@@ -207,10 +207,11 @@ font-size: 2rem;
 	color: #fff;
 	text-decoration: none;
 	font-size: .8em;
+	transition: background .5s ease, color .3s ease;
 }
 .blog_tag a:hover {
 	background: #A0FF00;
-	color: #fff;
+	color: #333;
 	padding: 10px 30px 10px; }
 @media only screen and (max-width: 40em) {
 	.blog_tag a {
