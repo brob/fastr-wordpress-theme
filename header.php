@@ -48,7 +48,6 @@
 				<a class="site-logo"  href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 					<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>
 			    </a>
-				<a class="portfolio-link" href="/" title="Back to Bryan's Portfolio">Portfolio</a>
 			<?php endif; ?>
 
 			<?php endif; ?>
