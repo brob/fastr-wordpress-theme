@@ -199,20 +199,19 @@ font-size: 2rem;
 		height: 30px;
 		width: 100%; } }
 .blog_tag a {
+	background: #508000;
 	position: absolute;
-	top: -1px;
-	right: 10%;
-	padding: 0px 30px 2px;
-	color: #A0FF00;
-	border: 1px solid #A0FF00;
-	transition: .5s background, .5s padding;
+	top: 0px;
+	right: 0;
+	padding: 10px 30px 10px;
+	color: #fff;
 	text-decoration: none;
 	font-size: .8em;
 }
 .blog_tag a:hover {
-	background: #508000;
-	color: #A0FF00;
-	padding: 10px 30px 15px; }
+	background: #A0FF00;
+	color: #fff;
+	padding: 10px 30px 10px; }
 @media only screen and (max-width: 40em) {
 	.blog_tag a {
 		top: 0;
