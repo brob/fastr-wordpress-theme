@@ -22,7 +22,7 @@
 			    <?php do_action( 'fastr_credits' ); ?>
 			    <?php printf( __( 'Proudly powered by %s', 'fastr' ), '<a href="http://wordpress.org/" rel="generator"  target="_blank">WordPress</a>' ); ?>
 			    <span class="sep"> | </span>
-			    <?php printf( __( 'Theme: %1$s by %2$s.', 'fastr' ), 'Fastr', '<a href="http://kanishkkunal.in" rel="designer" target="_blank">Kanishk</a>' ); ?>
+			    <?php printf( __( 'Theme: %1$s by %2$s.', 'fastr' ), 'A modified Fastr', '<a href="http://kanishkkunal.in" rel="designer" target="_blank">Kanishk</a>. Modded by <a href="https://github.com/brob/fastr-wordpress-theme">me</a>' ); ?>
 		    </div><!-- .site-info -->
         </div>
 	</footer><!-- #colophon -->
