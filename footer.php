@@ -28,6 +28,13 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
+<script>
+	var disqusDiv = document.getElementById('disqus_thread');
+	if (disqusDiv != undefined) {
+		disqusDiv.setAttribute('class', 'container');
+	}
+</script>
+
 <?php wp_footer(); ?>
 
 </body>
